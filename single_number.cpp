@@ -10,7 +10,7 @@ int singleNumber(vector<int> &nums)
 
     for (auto &e : nums)
     {
-        ret ^= e;
+        ret ^= e;s
     }
 
     return ret;
